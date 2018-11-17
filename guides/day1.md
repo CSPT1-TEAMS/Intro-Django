@@ -248,7 +248,6 @@ Show migrations again to make sure they appear, then do the migration:
 
 Import the notes class into the repl:
 ```python
-from notes.models import Note
 ```
 
 Create a new note with:
