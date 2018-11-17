@@ -1,0 +1,6 @@
+web:
+  image: djangoproj
+  volumes:
+    - .:/app
+  ports:
+    - "8000:80"
