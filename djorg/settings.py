@@ -135,11 +135,11 @@ USE_TZ = True
 
 CORS_ORIGIN_ALLOW_ALL = True
 
-DATABASES['default'] = dj_database_url.config(default='DATABASE_URL')
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
+
+DATABASES['default'] = dj_database_url.config(default='DATABASE_URL')
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
